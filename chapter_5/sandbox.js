@@ -19,4 +19,5 @@ function bye(){
 }
 
 bye();
+greet();
 
