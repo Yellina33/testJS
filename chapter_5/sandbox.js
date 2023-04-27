@@ -12,3 +12,10 @@ const speak = function(){
 };
 
 speak();
+speak();
+
+function bye(){
+  console.log('goodbye dear');
+}
+
+bye();
