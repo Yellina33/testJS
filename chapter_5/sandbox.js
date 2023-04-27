@@ -19,7 +19,4 @@ function bye(){
 }
 
 bye();
-bye();
-bye();
-greet();
 
