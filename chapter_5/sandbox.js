@@ -19,3 +19,4 @@ function bye(){
 }
 
 bye();
+bye();
