@@ -38,6 +38,7 @@ const hello = function(name = 'Luigi', time = 'afternoon'){
 
 hello('shaun');
 hello('Guillaume');
+greet();
 
 
 
