@@ -40,11 +40,34 @@ greet();
 // hello('Guillaume');
 // greet();
 
-const calcArea = function(radius){
-  let area = 3.14* radius**2;
-  return area; 
- 
-}
-calcArea(5);
+
+//return the value to a global scope. We put it in a const global
+// const calcArea = function(radius){
+//   return 3.14 * radius**2;
+// };
+
+// const area = calcArea(5);
+// console.log(area);
+
+//we are able to reuse the value that a function brings back to us
 
 
+// arrow function
+// const calcArea = (radius) => {
+//   return 3.14 * radius**2;
+// };
+// const area = calcArea(5);
+// console.log('area is:', area);
+
+// //even more simplified the function arrow can be 
+// const calArea = radius => 3.14 * radius**2;
+
+
+//exemple of turning arrow functions 
+// const greet = function(){
+//   return 'Hello world, how are you';
+// };
+
+const hola = () => 'Hello world, how are you';
+const result = hola();
+console.log(hola);
