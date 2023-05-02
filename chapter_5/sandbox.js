@@ -32,14 +32,19 @@ greet();
 
 
 // we add default paramenters in case we dont have value for the variables created in the f
-const hello = function(name = 'Luigi', time = 'afternoon'){
-  console.log(`hello, have a great ${time} ${name}`);
-};
+// const hello = function(name = 'Luigi', time = 'afternoon'){
+//   console.log(`hello, have a great ${time} ${name}`);
+// };
 
-hello('shaun');
-hello('Guillaume');
-greet();
+// hello('shaun');
+// hello('Guillaume');
+// greet();
 
-
+const calcArea = function(radius){
+  let area = 3.14* radius**2;
+  return area; 
+ 
+}
+calcArea(5);
 
 
