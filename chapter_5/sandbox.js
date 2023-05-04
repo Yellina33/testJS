@@ -63,7 +63,7 @@ greet();
 // const calArea = radius => 3.14 * radius**2;
 
 
-//exemple of turning arrow functions 
+//exemple of turning to arrow functions 
 // const greet = function(){
 //   return 'Hello world, how are you';
 // };
